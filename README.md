@@ -23,9 +23,7 @@
 ## Overview
 
 ### Roadmap
-- [x] README Upgrade
-    - [x] Add Edit section for Roadmap
-    - [x] (BONUS) Add Staged section for New Changes
+> empty
 
 Edit:
 > empty
