@@ -23,12 +23,15 @@
 ## Overview
 
 ### Roadmap
-- [ ] Edit Section
+- [ ] README Upgrade
     - [x] Add Edit section for Roadmap
-    - [ ] Remove Edit section  (to be discarded)
+    - [ ] (BONUS) Add Staged section for New Changes
 
 Edit:
-> empty
+<br>\- Remove Edit section
+<br>\+ (BONUS) Add Staged section for New Changes
+<br>\- Edit Section
+<br>\+ README Upgrade
 
 <br>
 
