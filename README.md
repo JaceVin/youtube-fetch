@@ -24,8 +24,11 @@
 
 ### Roadmap
 - [ ] Edit Section
-    - [ ] Add Edit section for Roadmap
+    - [x] Add Edit section for Roadmap
     - [ ] Remove Edit section  (to be discarded)
+
+Edit:
+> empty
 
 <br>
 
