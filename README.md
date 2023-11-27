@@ -23,15 +23,12 @@
 ## Overview
 
 ### Roadmap
-- [ ] README Upgrade
+- [x] README Upgrade
     - [x] Add Edit section for Roadmap
-    - [ ] (BONUS) Add Staged section for New Changes
+    - [x] (BONUS) Add Staged section for New Changes
 
 Edit:
-<br>\- Remove Edit section
-<br>\+ (BONUS) Add Staged section for New Changes
-<br>\- Edit Section
-<br>\+ README Upgrade
+> empty
 
 <br>
 
@@ -72,6 +69,9 @@ Edit:
 + Initial Boilerplate
     + MIT License
     + README
+
+Staged:
+> empty
 
 ### Acknowledgements
 > empty
