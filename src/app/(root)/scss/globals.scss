@@ -1,10 +1,10 @@
-@import './mixins/themes';
+@import './partials/themes';
 @include light-root;
 @include if-dark-root;
 @include if-dark;
 @include singleStrokeColor;
 
-@import './mixins/defaults';
+@import './partials/defaults';
 @include full-view-width;
 @include initial-box-model;
 @include initial-colors;
