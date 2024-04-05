@@ -1,0 +1,39 @@
+@use '@/components/scss/partials/switch' as *;
+@function _getOrientation($direction) {
+  @return switch( (
+      row: vertical,
+      column: horizontal,
+      default: none,
+    ), $direction
+  );
+}
+
+@mixin layout-using($direction, $layout) {
+  $_orientation: _getOrientation($direction);
+  .#{$_orientation}-halves {
+    display: $layout;
+    // For some reason, setting it to 100 view-unit will clip out by ~1px.
+    height: 99.9vh;
+    width: 99.9vw;
+    
+    @if $layout == flex {
+      flex-direction: $direction;
+    }
+    @if $layout == grid {
+      $_notDirection: switch( (
+        row: column,
+        column: row,
+        default: none,
+      ), $direction);
+
+      grid-template-#{$_notDirection}s: repeat(2, 1fr);
+    }
+  }
+
+  .placeholder {
+    border: 1px solid;
+    width: 100%;
+    // height: inherit;  // Applied by default.
+    border-radius: 10px;
+  }
+}

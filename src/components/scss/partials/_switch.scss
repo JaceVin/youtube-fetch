@@ -1,0 +1,8 @@
+@function switch($map, $key: empty) {
+  $value: not-found-default;
+  $value: map-get($map, $key);
+  @if $value == not-found-default {
+    $value: map-get($map, default)
+  }
+  @return $value;
+}
